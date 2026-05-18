@@ -1,0 +1,17 @@
+{
+  "width": 2592,
+  "height": 1944,
+  "objects": [
+    {
+      "bbox": {
+        "xmin": 2143.96875,
+        "ymin": 293.30859375,
+        "xmax": 2352.1640625,
+        "ymax": 492.169921875
+      },
+      "properties": {
+        "occluded": false
+      }
+    }
+  ]
+}
