@@ -1,0 +1,6 @@
+path: /data/YOLO26/yolo_dataset
+train: images/train
+val:   images/val
+
+nc: 2
+names: ['not_occluded', 'occluded']

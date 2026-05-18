@@ -1,0 +1,17 @@
+services:
+  train:
+    build: .
+    container_name: yolo26-iteracija1
+    working_dir: /data/YOLO26/iteracija1
+    volumes:
+      - ../../:/data
+    command: >
+      python train.py
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    shm_size: 8g

@@ -1,0 +1,16 @@
+services:
+  train:
+    build: .
+    container_name: rfdetr-iteracija4
+    working_dir: /data/RT-DETR/iteracija4
+    volumes:
+      - ../../:/data
+    command: python train.py
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    shm_size: "16g"
