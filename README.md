@@ -1,5 +1,5 @@
 # Bakalaura darba praktiskā daļa
-Aizseguma identificēšanas modeļu apmācība (YOLo26 un RF-DETR)
+Aizseguma identificēšanas modeļu apmācība (YOLO26 un RF-DETR)
 ### BAKALAURS_DATASET/
 Izveidotā datu kopa
 - train/occluded/ - apmācības attēli ar aizsegtiem objektiem (465 attēli un JSON anotācijas)
